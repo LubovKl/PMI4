@@ -1,0 +1,41 @@
+body{
+}
+
+
+.absolute{
+    position: absolute;
+    background-color: #E2A;
+    left: 40px;
+    top: 50px;
+    right: 20%;
+    bottom: 40%;
+}
+
+#fixed{
+    position: fixed;
+    right: 100px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div.relative{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+span.absolute{
+    position: absolute;
+    background-color: #E2A;
+    left: 40px;
+    top: 50px;
+    right: auto;
+    bottom: auto;
+    display: flex;
+}
