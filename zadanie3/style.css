@@ -1,65 +1,67 @@
+body{
+margin: 0px;
+}
 div{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    background-color: white;
-    margin: 30px;
-    padding: 30px;
-    text-align: center;
+border: 2px solid #222;
+margin: 20px 30px 20px 30px; /*top right bottom left*/
+padding: 30px;
+text-align: center;
 }
 
-.staticBox{
-    position: static;
+.static{
+   
 }
 
-.fixedBox{
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    top: 0;
-    margin: 0px;
+.fixed{
+position: fixed;
+top: 0px;
+right: 0px;
 }
 
-.relativeBoxes{
-    position: relative;
-    padding: 140px;
-    clear: left;
+.float1{
+text-align: right;
 }
 
-.absoluteBoxes{
-    position: absolute;
+.float2{
+
 }
 
-#absBoxLT{
-    left: 0;
-    top: 0;
+.relative{
+position: relative;
 }
 
-#absBoxLB{
-    left: 0;
-    bottom: 0;
+.absolute1{
+
 }
 
-#absBoxRT{
-    right: 0;
-    top: 0;
+.absolute2{
+    
 }
 
-#absBoxRB{
-    right: 0;
-    bottom: 0;
+.absolute3{
+    
+}
+.absolute4{
+    
 }
 
-.floatBox{
-    float: left;
-    height: 200px;
-    width: 42.2%;
+.float3{
+   
 }
 
-.floatBoxB{
-    float: left;
+.float4{
+ 
 }
 
-#poetry{
-    clear: left;
+.float5{
+    
 }
+
+.float6{
+    
+}
+
+.float7{
+    
+}
+
