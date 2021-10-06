@@ -1,0 +1,225 @@
+/*
+Стили от Климкиной Л.А. гр. 1-ПМИ-4
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif',serif;
+    font-size: 20px;
+}
+
+.clearBoth{
+    clear: both;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bg_orange{
+   background-color: rgb(209, 114, 50); 
+}
+.text_color_white{
+    color: #fff !important;
+}
+
+.section .body_element{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section.menu{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.menu{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.menu .list_menu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu .list_menu li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main{
+    background-image: url('img/picture.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 123px;
+    padding-top: 100px;
+}
+
+.main .logo, .main .tizer{
+    text-align: center;
+}
+
+.main .logo img{
+    width: 300px;
+}
+.main .tizer{
+    margin: 70px 0px;
+}
+.main .tizer p{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.main .slogan p{
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.p_header{
+    font-size: 54px;
+    color: #000;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    margin: 0px;
+}
+
+.about .tizer_about .t_about{
+    float: left;
+    width: 33.3333333333%;
+    padding: 0px 20px;
+}
+
+.about .tizer_about .t_about .t_about_header{
+  font-size: 54px;
+  padding: 20px 0px;
+  border-bottom: 3px solid #000;
+  margin-bottom: 20px;
+}
+
+.about .tradicii_about{
+    margin-top: 80px;
+}
+
+.about .tradicii_about .tra_about{
+    float: left;
+    width: 530px;
+    margin: 0px 20px;
+    background-color: rgb(209, 114, 50);
+    height: 550px;
+}
+
+.about .tradicii_about .tra_about .img_tradicii_about{
+    background-image: url('img/tradicii.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.about .tradicii_about .tra_about .tra_about_header{
+    font-size: 54px;
+    padding: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about .tradicii_about .tra_about .tra_about_text{
+    color: #fff;
+    line-height: 24px;
+    padding: 0px 45px;
+}
+
+.product .product_element{
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+
+.product .product_element img{
+    width: 100%;
+    height: 220px;
+}
+
+.product .product_element .name{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.product .product_element .price{
+    text-align: center;
+}
+
+.video .body_element{
+    text-align: center;
+}
+
+.photos .photo_element{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.photos .photo_element img{  
+    width: 100%;
+    height: 200px;
+}
+
+.contact_form .map, .contact_form .form{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.contact_form .form{
+    color: #fff;
+    padding-left: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.contact_form .form form{
+    padding-top: 40px;
+}
+.contact_form .form label{
+    margin-top: 30px;
+    display: block;
+}
+.contact_form .form input{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact_form .form button{
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 210px;
+    margin-top: 30px;
+    color: rgb(209, 114, 50);
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer .Klimkina{
+    text-align: center;
+}
