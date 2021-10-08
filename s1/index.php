@@ -45,10 +45,10 @@
         <div class="floatBoxB">
             Float
         </div>
-        <div class="floatBoxB">
+        <div class="floatBoxB" id="float">
             Float
         </div>
-        <div class="floatBoxB">
+        <div class="floatBoxB" id="float1">
             Float
         </div>
 </body>
