@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-        <link  href="path/to/jquery.fancybox.min.css" rel="stylesheet">
-        <script src="path/to/jquery.fancybox.min.js"></script>
+        <link  href="/path/to/jquery.fancybox.min.css" rel="stylesheet">
+        <script src="/path/to/jquery.fancybox.min.js"></script>
         
     </head>
     <body>
