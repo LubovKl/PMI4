@@ -1,66 +1,40 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Первый сайт</title>
+        <title>Main page</title>
+         <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link rel="stylesheet" href="/style.css">
+
+        <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+        
+        
     </head>
-    
     <body>
-        <h1>
-            Первый сайт!
-        </h1>
-        <h2>
-            Первый сайт!
-        </h2>
-        <h3>
-            Первый сайт!
-        </h3>
-        <p>
-            Hello
-        </p>
-        <span id="Petr" class="Ivanov" style="display: block; text-align: center; color: blue">
-            Petr
-        </span>
-        <a>
-            123445
-        </a>
-        
-        <div>I am DIV</div>
-        
-        <ul>
-            <li>2</li>
-            <li>3</li>
-            <li>1</li>
-        </ul>
-        
-        <ol>
-            <li>2</li>
-            <li>3</li>
-            <li>1</li>
-            <li>Content
-                <ul>
-                    <li>
-                        232
-                    </li>
-                </ul>
-            </li>
-        </ol>
-        
-        <div class="absolute">
-            Absolute
+        <div class="main_page">
+       <div class="title">Страница Климкиной Любы</div>
+        <div class="title_title">Домашние задания:</div>
+       <div class="s1">
+            <p><a href="/s1/index.php">Блочный тип</a></p>
         </div>
-        <div id="fixed">
-            Fixed
+        <div class="zadanie2">
+            <p><a href="/zadanie2/index.php">Страница обо мне</a></p>
         </div>
-        <div class="div relative">
-            Relative 
-            <span class="absolute">Content</span>
-            <div id="fixed">Content</div>
+        <div class="lending">
+            <p><a href="/lending/index.php">Lending</a></p>
         </div>
-        <div>
-            
+        <div class="js1">
+            <p><a href="/js(1)/index.php">JS часть 1</a></p>
+        </div>
+        <div class="js2">
+            <p><a href="/js(2)/index.php">JS часть 2</a></p>
+        </div>
         </div>
     </body>
 </html>

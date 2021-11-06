@@ -1,41 +1,30 @@
+html {
+    background: #00FF00;
+}
+
 body{
+     text-align: center;
+     margin: 40px;
+     font-size: 20px;
+}
+
+.title{
+    font-size: 40px;
+    margin: 50px;
+    border-bottom: 5px solid #aa0719;
+}
+
+.title_title{
+    font-size: 30px;
+    margin: 47px;
+    border-bottom: 5px solid chocolate;
+}
+
+.main_page{
+    background-color: violet;
 }
 
 
-.absolute{
-    position: absolute;
-    background-color: #E2A;
-    left: 40px;
-    top: 50px;
-    right: 20%;
-    bottom: 40%;
-}
 
-#fixed{
-    position: fixed;
-    right: 100px;
-    top: 100px;
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.div.relative{
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
-}
 
-span.absolute{
-    position: absolute;
-    background-color: #E2A;
-    left: 40px;
-    top: 50px;
-    right: auto;
-    bottom: auto;
-    display: flex;
-}
+
